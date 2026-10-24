@@ -1,4 +1,5 @@
 # ApplyIt
+
 ### Moving K-12 Education from Rote Learning to Tactile Application
 
 > **Hackathon Track:** K-12 Education — Moving from Rote Learning to Application  
@@ -8,23 +9,23 @@
 
 ## 🌟 Why ApplyIt Wins
 
-| Challenge in Problem Statement | How ApplyIt Solves It |
-|---|---|
-| **Rote Memorization Trap** | Replaces rote definitions with immersive real-world crisis narratives (e.g. logistics warehouse ramp, Mars colony greenhouse, municipal blackout grid). |
-| **Limited Classroom Time (45 mins)** | Engineered into structured **15-minute micro-activities** (2 min hook + 10 min investigation + 3 min reflection) that easily fit inside standard school periods. |
-| **Inadequate Resources / Lack of Lab** | **Zero-Cost Kit Directory**: Every activity uses ₹0 classroom scrap (rulers, turmeric, erasers, plastic bottles, water bags, foil) as direct substitutes for costly lab apparatus. |
+| Challenge in Problem Statement         | How ApplyIt Solves It                                                                                                                                                                                                                         |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Rote Memorization Trap**             | Replaces rote definitions with immersive real-world crisis narratives (e.g. logistics warehouse ramp, Mars colony greenhouse, municipal blackout grid).                                                                                       |
+| **Limited Classroom Time (45 mins)**   | Engineered into structured **15-minute micro-activities** (2 min hook + 10 min investigation + 3 min reflection) that easily fit inside standard school periods.                                                                              |
+| **Inadequate Resources / Lack of Lab** | **Zero-Cost Kit Directory**: Every activity uses ₹0 classroom scrap (rulers, turmeric, erasers, plastic bottles, water bags, foil) as direct substitutes for costly lab apparatus.                                                            |
 | **Lack of Practical Assessment Tools** | **Real-Time Observation Grid**: Teachers tap student team evaluations during classroom walk-arounds using Bloom's Taxonomy rubrics (Remember → Understand → Apply → Analyze → Evaluate → Create) with instant printable session report cards. |
-| **Syllabus / Topic Coverage** | **AI Mission Generator**: Input any NCERT or state syllabus chapter + available scrap items, and generate a customized hands-on mission with rubric in seconds. |
+| **Syllabus / Topic Coverage**          | **AI Mission Generator**: Input any NCERT or state syllabus chapter + available scrap items, and generate a customized hands-on mission with rubric in seconds.                                                                               |
 
 ---
 
 ## 🚀 Key Features
 
 1. **Mission Library**
-   - **Physics:** Friction & Surface Resistance (*The Warehouse Crisis*), Series vs Parallel Circuits (*The Municipal Blackout*), Acoustic Frequency (*The Soundstage Challenge*)
-   - **Biology:** Photosynthesis & Limiting Factors (*The Mars Colony Farm*)
-   - **Chemistry:** Acids, Bases & Organic Litmus (*The Food Safety Lab*)
-   - **Geography / EVS:** The Water Cycle (*The Drought Response in a Ziplock*)
+   - **Physics:** Friction & Surface Resistance (_The Warehouse Crisis_), Series vs Parallel Circuits (_The Municipal Blackout_), Acoustic Frequency (_The Soundstage Challenge_)
+   - **Biology:** Photosynthesis & Limiting Factors (_The Mars Colony Farm_)
+   - **Chemistry:** Acids, Bases & Organic Litmus (_The Food Safety Lab_)
+   - **Geography / EVS:** The Water Cycle (_The Drought Response in a Ziplock_)
 
 2. **Interactive Digital Twin Simulators**
    - High-performance, canvas-based and SVG-based physics twins that allow students to validate their physical classroom scrap results on screen.
@@ -78,32 +79,3 @@ npm run build
 ```
 
 ---
-
-## 🚢 How to Deploy Frontend (GitHub, Vercel, Netlify)
-
-### Option 1: Vercel (Recommended — 60 seconds)
-1. Push this folder to a GitHub repository:
-   ```bash
-   git init
-   git add .
-   git commit -m "Concept2Reality: Hackathon Ready"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-   git push -u origin main
-   ```
-2. Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
-3. Import your GitHub repository.
-4. Framework Preset: **Vite** (detected automatically).
-5. Click **Deploy**. Done! (`vercel.json` is already configured for SPA routing).
-
-### Option 2: Netlify
-1. Connect your repository on [netlify.com](https://netlify.com).
-2. Build command: `npm run build`
-3. Publish directory: `dist`
-4. Deploy! (`public/_redirects` is already included).
-
----
-
-## 🏆 Presentation Pitch for Hackathon Judges
-
-> *"ApplyIt doesn't ask teachers to change their syllabus or schools to buy expensive robotics kits. It bridges the gap between what is memorized on the blackboard and what is felt in the hands. With 15 minutes, zero-cost scrap materials, and our Bloom's Taxonomy observation grid, any teacher can turn rote memorizers into real-world problem solvers."*
